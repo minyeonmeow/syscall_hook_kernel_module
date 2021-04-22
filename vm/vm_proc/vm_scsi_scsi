@@ -1,0 +1,4 @@
+Attached devices:
+Host: scsi0 Channel: 00 Id: 00 Lun: 00
+  Vendor: QEMU     Model: QEMU DVD-ROM     Rev: 2.5+
+  Type:   CD-ROM                           ANSI  SCSI revision: 05
