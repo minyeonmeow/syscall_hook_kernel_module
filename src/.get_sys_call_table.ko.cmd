@@ -1,0 +1,1 @@
+cmd_/home/adl/experiment/src/get_sys_call_table.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/adl/experiment/src/get_sys_call_table.ko /home/adl/experiment/src/get_sys_call_table.o /home/adl/experiment/src/get_sys_call_table.mod.o;  true
