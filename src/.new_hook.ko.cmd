@@ -1,0 +1,1 @@
+cmd_/home/adl/experiment/src/new_hook.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/adl/experiment/src/new_hook.ko /home/adl/experiment/src/new_hook.o /home/adl/experiment/src/new_hook.mod.o;  true
