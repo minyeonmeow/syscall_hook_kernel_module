@@ -1,4 +1,4 @@
-obj-m += new_hook.o
+obj-m += my_hook.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
